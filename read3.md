@@ -68,9 +68,7 @@ For example
 ```
 
 2. Footer 
-```<footer>
-&copy; 2011 Yoko's Kitchen
-</footer>```
+
 
 3. Navigation
 The <nav> element is used to contain the major navigational blocks on the site such as the primary site navigation.
