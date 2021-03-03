@@ -45,14 +45,14 @@ The wireframe will make us sure that all information we are need that will be on
 
 # HTML Layouts
 
-HTML5 introduces a new set of elements that allow you to divide up the
-parts of a page. The names of these elements indicate the kind of content
-you will find in them.
+HTML5 introduces a new set of elements that allow you to divide up the parts of a page. The names of these elements indicate the kind of content you will find in them.
 
 ### Headers & Footers
 The main header or footer that appears at the top or bottom of every page on the site.
+
 For example
 header
+```
 <header>
 <h1>Yoko's Kitchen</h1>
 <nav>
@@ -65,8 +65,9 @@ header
 </ul>
 </nav>
 </header>
+```
 
 Footer 
-<footer>
+```<footer>
 &copy; 2011 Yoko's Kitchen
-</footer>
+</footer>```
