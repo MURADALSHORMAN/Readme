@@ -125,8 +125,7 @@ range of Japanese cookery.</p>
 </article>
 ```
 
-Article
-The *aside* element has two purposes, depending on whether it is inside an <article> element or not.
+Article The *aside* element has two purposes, depending on whether it is inside an <article> element or not.
 
 ```
 <aside>
