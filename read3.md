@@ -68,11 +68,17 @@ For example
 ```
 
 2. Footer 
-
+```
+<footer>
+&copy; 2011 Yoko's Kitchen
+</footer>
+```
 
 3. Navigation
 The <nav> element is used to contain the major navigational blocks on the site such as the primary site navigation.
-```<nav>
+  
+```
+<nav>
 <ul>
 <li><a href="" class="current">home</a></li>
 <li><a href="">classes</a></li>
@@ -80,14 +86,16 @@ The <nav> element is used to contain the major navigational blocks on the site s
 <li><a href="">about</a></li>
 <li><a href="">contact</a></li>
 </ul>
-</nav>```
+</nav>
+```
 
 
 4. Articles
 
 The <article> element acts as a container for any section of a page that could stand alone and potentially be syndicated.
 
-```<article>
+```
+<article>
 <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
@@ -113,12 +121,14 @@ alt="Teriyaki sauce" />
 <p>An intensive one-day course looking at how to
 create the most delicious sauces for use in a
 range of Japanese cookery.</p>
-</article>```
+</article>
+```
 
 Article
 The <aside> element has two purposes, depending on whether it is inside an <article> element or not.
 
-```<aside>
+```
+<aside>
 <section class="popular-recipes">
 <h2>Popular Recipes</h2>
 <a href="">Yakitori (grilled chicken)</a>
@@ -133,15 +143,14 @@ The <aside> element has two purposes, depending on whether it is inside an <arti
 Shoreditch<br />
 London E2 7DP</p>
 </section>
-</aside>```
+</aside>
+```
 
 
 5. Sections
-The <section> element groups
-related content together, and
-typically each section would
-have its own heading.
-<section class="popular-recipes">
+The <section> element groups related content together, and typically each section would have its own heading.
+
+ ``` <section class="popular-recipes">
 <h2>Popular Recipes</h2>
 <a href="">Yakitori (grilled chicken)</a>
 <a href="">Tsukune (minced chicken patties)</a>
@@ -155,15 +164,19 @@ have its own heading.
 Shoreditch<br />
 London E2 7DP</p>
 </section>
+```
+ 
 
 
 6. Heading Groups
 The purpose of the <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
 
-```<hgroup>
+```
+<hgroup>
 <h2>Japanese Vegetarian</h2>
 <h3>Five week course in London</h3>
-</hgroup>```
+</hgroup>
+```
 
 7. Figures
 
@@ -173,14 +186,16 @@ an article (not just images).
 ```<figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
-</figure>```
+</figure>
+```
 
 
 8. Sectioning El ements
 
 It may seem strange to follow these new elements by revisiting the <div> element again. (After all, the new elements are often going to be used in its place.)
 
-```<div class="wrapper">
+```
+<div class="wrapper">
 <header>
 <h1>Yoko's Kitchen</h1>
 <nav>
@@ -196,5 +211,6 @@ It may seem strange to follow these new elements by revisiting the <div> element
 <footer>
 <!-- footer content here -->
 </footer>
-</div><!-- .wrapper -->```
+</div><!-- .wrapper -->
+```
 
