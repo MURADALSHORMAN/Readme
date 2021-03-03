@@ -51,7 +51,7 @@ HTML5 introduces a new set of elements that allow you to divide up the parts of 
 The main header or footer that appears at the top or bottom of every page on the site.
 
 For example
-header
+1. header
 ```
 <header>
 <h1>Yoko's Kitchen</h1>
@@ -67,7 +67,136 @@ header
 </header>
 ```
 
-Footer 
+2. Footer 
 ```<footer>
 &copy; 2011 Yoko's Kitchen
 </footer>```
+
+3. Navigation
+The <nav> element is used to contain the major navigational blocks on the site such as the primary site navigation.
+```<nav>
+<ul>
+<li><a href="" class="current">home</a></li>
+<li><a href="">classes</a></li>
+<li><a href="">catering</a></li>
+<li><a href="">about</a></li>
+<li><a href="">contact</a></li>
+</ul>
+</nav>```
+
+
+4. Articles
+
+The <article> element acts as a container for any section of a page that could stand alone and potentially be syndicated.
+
+```<article>
+<figure>
+<img src="images/bok-choi.jpg" alt="Bok Choi" />
+<figcaption>Bok Choi</figcaption>
+</figure>
+<hgroup>
+<h2>Japanese Vegetarian</h2>
+<h3>Five week course in London</h3>
+</hgroup>
+<p>A five week introduction to traditional
+Japanese vegetarian meals, teaching you a
+selection of rice and noodle dishes.</p>
+</article>
+<article>
+<figure>
+<img src="images/teriyaki.jpg"
+alt="Teriyaki sauce" />
+<figcaption>Teriyaki Sauce</figcaption>
+</figure>
+<hgroup>
+<h2>Sauces Masterclass</h2>
+<h3>One day workshop</h3>
+</hgroup>
+<p>An intensive one-day course looking at how to
+create the most delicious sauces for use in a
+range of Japanese cookery.</p>
+</article>```
+
+Article
+The <aside> element has two purposes, depending on whether it is inside an <article> element or not.
+
+```<aside>
+<section class="popular-recipes">
+<h2>Popular Recipes</h2>
+<a href="">Yakitori (grilled chicken)</a>
+<a href="">Tsukune (minced chicken patties)</a>
+<a href="">Okonomiyaki (savory pancakes)</a>
+<a href="">Mizutaki (chicken stew)</a>
+</section>
+<section class="contact-details">
+<h2>Contact</h2>
+<p>Yoko's Kitchen<br />
+27 Redchurch Street<br />
+Shoreditch<br />
+London E2 7DP</p>
+</section>
+</aside>```
+
+
+5. Sections
+The <section> element groups
+related content together, and
+typically each section would
+have its own heading.
+<section class="popular-recipes">
+<h2>Popular Recipes</h2>
+<a href="">Yakitori (grilled chicken)</a>
+<a href="">Tsukune (minced chicken patties)</a>
+<a href="">Okonomiyaki (savory pancakes)</a>
+<a href="">Mizutaki (chicken stew)</a>
+</section>
+<section class="contact-details">
+<h2>Contact</h2>
+<p>Yoko's Kitchen<br />
+27 Redchurch Street<br />
+Shoreditch<br />
+London E2 7DP</p>
+</section>
+
+
+6. Heading Groups
+The purpose of the <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
+
+```<hgroup>
+<h2>Japanese Vegetarian</h2>
+<h3>Five week course in London</h3>
+</hgroup>```
+
+7. Figures
+
+You already met the <figure> element in Chapter 5 when we looked at images. It can be used to contain any content that is referenced from the main flow of
+an article (not just images).
+
+```<figure>
+<img src="images/bok-choi.jpg" alt="Bok Choi" />
+<figcaption>Bok Choi</figcaption>
+</figure>```
+
+
+8. Sectioning El ements
+
+It may seem strange to follow these new elements by revisiting the <div> element again. (After all, the new elements are often going to be used in its place.)
+
+```<div class="wrapper">
+<header>
+<h1>Yoko's Kitchen</h1>
+<nav>
+<!-- nav content here -->
+</nav>
+</header>
+<section class="courses">
+<!-- section content here -->
+</section>
+<aside>
+<!-- aside content here -->
+</aside>
+<footer>
+<!-- footer content here -->
+</footer>
+</div><!-- .wrapper -->```
+
