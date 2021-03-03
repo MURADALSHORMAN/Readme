@@ -21,7 +21,7 @@ We should understand how match we need to update information to the audience  de
 
 Now ae can create the site map that will  show where is every information  should be ? and how these information will integration to each other for example see Fig 1 below 
 
-
+![](https://github.com/MURADALSHORMAN/Readme/blob/main/fig1.JPG)
 
 
 ## wireframe
@@ -30,7 +30,7 @@ wireframe is a simple sketch of the key information that needs to go on each pag
 
 The wireframe will make us sure that all information we are need that will be on the website also in the correction place for example see Fig 2 
 
-
+![](https://github.com/MURADALSHORMAN/Readme/blob/main/fig2.JPG)
 
 
 
