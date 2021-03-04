@@ -52,4 +52,7 @@ Expressions rely on things called operators; they allow programmers to create a 
 ![](https://github.com/MURADALSHORMAN/Readme/blob/main/Capture1.JPG)
 
 #### STRING OPERATOR 
-There is just one string operator: the+ symbol. It is used to join the strings on either side of it.
+There is just one string operator: the **+** symbol. It is used to join the strings on either side of it.
+
+## WHAT IS A FUNCTION?
+Functions let you group a series of statements together to perform a specific task. If different parts of a script repeat the same task, you can reuse the function (rather than repeating the same set of st atements).
