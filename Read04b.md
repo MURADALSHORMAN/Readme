@@ -9,3 +9,5 @@ the computers every where in our cars , homes our pockets, street etc.... , the 
 that the compyter have input and output ports and storage that the place use it to save the data and the point is we should understand **the software is contrrolled the hardware**.
 
 the language that the computer using called machine language it is using the 0 and 1 to process all data this *0 or 1* called a **BIT** these bits moving by electrcity signals inside the computer throught the wires that is mean if we have more wires that we can process  more BITs and it will make a complex data these system using the 0,1 called a binar system all information can be representive by 0,1.
+
+![](https://www.nutsvolts.com/uploads/articles/NV_0501_Byers_Social4.jpg)
